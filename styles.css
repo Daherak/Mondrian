@@ -1,0 +1,26 @@
+#content {
+	border: solid black 1px;
+	display: flex;
+	background-color: black;
+	flex-wrap: wrap;
+}
+
+.square {
+	height: 20px;
+	width: 20px;
+	border-radius: 4px;
+	border: solid white 1px;
+}
+
+.currentTiles {
+	border-color: red;	
+}
+
+.squareCompleted { border-color: white; }
+[data-nb='0'] { background-color: #DFD4DD; }
+[data-nb='1'] { background-color: #9DC1BE; }
+[data-nb='2'] { background-color: #619F9B; }
+[data-nb='3'] { background-color: #E98D79; }
+[data-nb='4'] { background-color: #F3C69A; }
+[data-nb='5'] { background-color: #FDECBB; }
+[data-nb='6'] { background-color: yellow; }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mondrian</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+	<h1>Mondrian Problem</h1>
+	<p class="well">The goal of this game is to have the lowest score possible. Your score is the area of your biggest rectangle minus your smallest.</p>
+
+	<p>Hard mode : you can't have 2 rectangle with the same width/lenght or lenght/width (if you make a 2*3 rectangle you can't make a 3*2 one)</p>
+	<div id="parameter" class="well">
+		square size <input type="number">
+		<button id="init" >init</button>
+		<button id="validate">validate square</button>
+		Score <span id="score">0</span>
+	</div>
+
+	<div id="content">
+		
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="mondrian.js"></script>
+</body>
+</html>
