@@ -17,10 +17,12 @@
 }
 
 .squareCompleted { border-color: white; }
-[data-nb='0'] { background-color: #DFD4DD; }
-[data-nb='1'] { background-color: #9DC1BE; }
-[data-nb='2'] { background-color: #619F9B; }
-[data-nb='3'] { background-color: #E98D79; }
+[data-nb='0'] { background-color: #FF0000; }
+[data-nb='1'] { background-color: #00FF00; }
+[data-nb='2'] { background-color: #0000FF; }
+[data-nb='3'] { background-color: #DFD4DD; }
+[data-nb='6'] { background-color: #E98D79; }
 [data-nb='4'] { background-color: #F3C69A; }
 [data-nb='5'] { background-color: #FDECBB; }
-[data-nb='6'] { background-color: yellow; }
+[data-nb='7'] { background-color: #619F9B; }
+[data-nb='8'] { background-color: #9DC1BE; }
