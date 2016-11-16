@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $("#parameter #init").click(function(){
-        init($("#parameter input").val());
+        init($("#parameter .nbMax").val());
     });
 
     $("#parameter #validate").click(function(){
@@ -65,6 +65,7 @@ $(document).ready(function(){
 				$('#'+i+'-'+j).addClass('currentTiles');
 			}
 		}
+		$("#parameter .displayer").val($('.currentTiles').length);
 	});
 
 	init(5);
